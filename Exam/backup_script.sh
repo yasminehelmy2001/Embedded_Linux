@@ -9,7 +9,7 @@ do
 		mkdir backups
 	fi
 	now=$(date +"%m_%d_%Y")
-	name= $(basename "$i")
+	name=$(basename "$i")
         tar -czf "./backups/backup>_<$echo $name>_<$echo $now>" $i 
         
         
