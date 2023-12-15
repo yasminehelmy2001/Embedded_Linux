@@ -1,6 +1,6 @@
 ## Code:
 
-- User Information:  
+-User Information:  
 - uid=1003(yourName) gid=1003(yourName) groups=1003(yourName),1004(FamilyName)  
 
 ## Explanation:
