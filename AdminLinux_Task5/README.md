@@ -1,7 +1,7 @@
 ## Code:
 
-- User Information:  
-- uid=1003(yourName) gid=1003(yourName) groups=1003(yourName),1004(FamilyName)  
+ User Information:  
+ uid=1003(yourName) gid=1003(yourName) groups=1003(yourName),1004(FamilyName)  
 
 ## Explanation:
 
@@ -10,8 +10,8 @@
 - the groups field has the primary group (yourName) and the secondary group (FamilyName) of the user  
 
 ## Code:
-- Group Information:  
-- FamilyName:x:1004:yourName  
+ Group Information:  
+ FamilyName:x:1004:yourName  
 
 ## Explanation:
 - "Family Name" is the name of the group  
