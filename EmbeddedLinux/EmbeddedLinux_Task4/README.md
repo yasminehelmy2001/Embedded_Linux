@@ -28,8 +28,7 @@
    
    <br>
    
-   ### Running the .elf file
-   
+   ### Running the .elf file   
    <br>
    Here the PORT_voidInit function initialized all 32 pins. PortA Pin0 & PortA Pin1 were initialized to OUTPUT_LOW. Then I used the DIO_enumsetPin function to set PortA Pin0 to LOGIC_HIGH.
    
