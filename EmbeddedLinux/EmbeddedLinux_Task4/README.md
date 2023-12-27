@@ -8,7 +8,7 @@
 
 2. Compiled our .c's to get our .o's 
 
-       `avr-gcc -c DIO.c -I ./Include`
+       avr-gcc -c DIO.c -I ./Include
     	
        `avr-gcc -c PORT.c -I ./Include`
     
