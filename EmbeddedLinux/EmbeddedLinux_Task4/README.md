@@ -22,7 +22,7 @@
 
    1. static: In order to link statically as the default is to link dynamically
 
-   2. mmcu=atmega32: in order to generate the .elf file for the specified ATMEGA32 architecture
+   2. mmcu=atmega32: in order to generate the .elf file for the specified ATMEGA32 architecture  
      `avr-gcc -mmcu=atmega32 main.c -o EL_Task4.elf -I ./Include -L. -lmcal -static`
 
    ### Running the .elf file
