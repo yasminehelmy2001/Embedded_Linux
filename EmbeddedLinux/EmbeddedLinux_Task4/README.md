@@ -24,11 +24,11 @@
 
    2. -mmcu=atmega32 in order to generate the .elf file for the specified ATMEGA32 architecture
 
-   ​	`avr-gcc -mmcu=atmega32 main.c -o EL_Task4.elf -I ./Include -L. -lmcal -static`
+   ​	`avr-gcc -mmcu=atmega32 main.c -o EL_Task4.elf -I ./Include -L. -lmcal -static`  
 
    
    
-   #### Running the .elf file
+   #### Running the .elf file  
 
    
    
