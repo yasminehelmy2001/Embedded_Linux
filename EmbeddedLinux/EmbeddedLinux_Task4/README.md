@@ -16,7 +16,7 @@
 
 4. We created our static library
 
-​	    `ar -rcs libmcal.a PORT_cfg.o PORT.o DIO.o`
+​    `ar -rcs libmcal.a PORT_cfg.o PORT.o DIO.o`
 
 4. We then linked our main .c with our library and used 2 flags:
 
