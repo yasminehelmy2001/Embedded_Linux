@@ -4,7 +4,7 @@
 
 1. Created a soft link for the avr gcc in order to write "avr-gcc" instead of the pull path while running it
 
-   ​	`sudo ln -s ~/x-tools/avr/bin/avr-gcc /usr/my-avr-gcc`
+   ​	sudo ln -s ~/x-tools/avr/bin/avr-gcc /usr/my-avr-gcc
 
 2. Compiled our .c's to get our .o's 
 
@@ -16,7 +16,7 @@
 
 3. Created our static library with the .o's
 
-        `ar -rcs libmcal.a PORT_cfg.o PORT.o DIO.o`
+        ar -rcs libmcal.a PORT_cfg.o PORT.o DIO.o
 
 4. Linked our main .c with our library and used 2 flags:
 
@@ -24,7 +24,7 @@
 
    2. mmcu=atmega32: in order to generate the .elf file for the specified ATMEGA32 architecture
 
-       `avr-gcc -mmcu=atmega32 main.c -o EL_Task4.elf -I ./Include -L. -lmcal -static`
+       avr-gcc -mmcu=atmega32 main.c -o EL_Task4.elf -I ./Include -L. -lmcal -static
 
    ### Running the .elf file
    Here the PORT_voidInit function initialized all 32 pins. PortA Pin0 & PortA Pin1 were initialized to OUTPUT_LOW. Then I used the DIO_enumsetPin function to set PortA Pin0 to LOGIC_HIGH.  
