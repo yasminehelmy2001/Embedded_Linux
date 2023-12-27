@@ -2,11 +2,11 @@
 
 ## 1) Static Library Application for ATMEGA32
 
-1. First we created a soft link for the avr gcc in order to write "avr-gcc" instead of the pull path while running it
+1. Created a soft link for the avr gcc in order to write "avr-gcc" instead of the pull path while running it
 
    ​	`sudo ln -s ~/x-tools/avr/bin/avr-gcc /usr/my-avr-gcc`
 
-2.  We then compiled our .c's to get our .o's 
+2. Compiled our .c's to get our .o's 
 
        `avr-gcc -c DIO.c -I ./Include`
     	
@@ -14,11 +14,11 @@
     
        `avr-gcc -c PORT_cfg.c -I ./Include`		
 
-3. We created our static library
+3. Created our static library with the .o's
 
         `ar -rcs libmcal.a PORT_cfg.o PORT.o DIO.o`
 
-4. We then linked our main .c with our library and used 2 flags:
+4. Linked our main .c with our library and used 2 flags:
 
    1. -static: In order to link statically as the default is to link dynamically
 
