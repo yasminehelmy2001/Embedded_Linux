@@ -4,7 +4,7 @@
 
 1. Created a soft link for the avr gcc in order to write "avr-gcc" instead of the pull path while running it
 
-   ​	sudo ln -s ~/x-tools/avr/bin/avr-gcc /usr/my-avr-gcc
+   ​	'sudo ln -s ~/x-tools/avr/bin/avr-gcc /usr/my-avr-gcc'
 
 2. Compiled our .c's to get our .o's 
 
