@@ -32,9 +32,9 @@
    
    Here the PORT_voidInit function initialized all 32 pins. PortA Pin0 & PortA Pin1 were initialized to OUTPUT_LOW. Then I used the DIO_enumsetPin function to set PortA Pin0 to LOGIC_HIGH.
    
-   ![](https://github.com/yasminehelmy2001/Embedded_Linux/blob/master/EmbeddedLinux/EmbeddedLinux_Task4/README.assets/maincode.png)
+   ![maincode](https://github.com/yasminehelmy2001/Embedded_Linux/blob/master/EmbeddedLinux/EmbeddedLinux_Task4/README.assets/maincode.png)
    
-   ![](https://github.com/yasminehelmy2001/Embedded_Linux/blob/master/EmbeddedLinux/EmbeddedLinux_Task4/README.assets/Proteus.png)
+   ![preteussimulation](https://github.com/yasminehelmy2001/Embedded_Linux/blob/master/EmbeddedLinux/EmbeddedLinux_Task4/README.assets/Proteus.png)
 
 ### 2) Using a static library in AVR applications over dynamic libraries
 
