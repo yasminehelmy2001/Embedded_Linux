@@ -33,7 +33,7 @@
    
    ![](https://github.com/yasminehelmy2001/Embedded_Linux/blob/master/EmbeddedLinux/EmbeddedLinux_Task4/README.assets/maincode.png)
    
-   ![](https://github.com/yasminehelmy2001/Embedded_Linux/blob/master/EmbeddedLinux/EmbeddedLinux_Task4/README.assets/Untitled12.png)
+   ![](https://github.com/yasminehelmy2001/Embedded_Linux/blob/master/EmbeddedLinux/EmbeddedLinux_Task4/README.assets/Proteus.png)
 
 ### 2) Using a static library in AVR applications over dynamic libraries
 
