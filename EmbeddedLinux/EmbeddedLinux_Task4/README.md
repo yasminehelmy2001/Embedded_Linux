@@ -24,8 +24,10 @@
 
    2. -mmcu=atmega32 in order to generate the .elf file for the specified ATMEGA32 architecture
 
-   ​	`avr-gcc -mmcu=atmega32 main.c -o EL_Task4.elf -I ./Include -L. -lmcal -static`  
-   #### Running the .elf file  
+   ​	`avr-gcc -mmcu=atmega32 main.c -o EL_Task4.elf -I ./Include -L. -lmcal -static`
+   <br>
+   #### Running the .elf file
+   <br>
    Here the PORT_voidInit function initialized all 32 pins. PortA Pin0 & PortA Pin1 were initialized to OUTPUT_LOW. Then I used the DIO_enumsetPin function to set PortA Pin0 to LOGIC_HIGH.
    
    ![maincode](https://github.com/yasminehelmy2001/Embedded_Linux/blob/master/EmbeddedLinux/EmbeddedLinux_Task4/README.assets/maincode.png)
