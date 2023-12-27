@@ -1,6 +1,6 @@
-## Embedded Linux Task 4
+# Embedded Linux Task 4
 
-### 1) Static Library Application for ATMEGA32
+## 1) Static Library Application for ATMEGA32
 
 1. First we created a soft link for the avr gcc in order to write "avr-gcc" instead of the pull path while running it
 
@@ -28,7 +28,7 @@
    
    <br>
    
-   #### Running the .elf file
+   ### Running the .elf file
    
    <br>
    Here the PORT_voidInit function initialized all 32 pins. PortA Pin0 & PortA Pin1 were initialized to OUTPUT_LOW. Then I used the DIO_enumsetPin function to set PortA Pin0 to LOGIC_HIGH.
@@ -37,7 +37,7 @@
    
    ![preteussimulation](https://github.com/yasminehelmy2001/Embedded_Linux/blob/master/EmbeddedLinux/EmbeddedLinux_Task4/README.assets/Proteus.png)
 
-### 2) Using a static library in AVR applications over dynamic libraries
+## 2) Using a static library in AVR applications over dynamic libraries
 
 AVR microcontrollers are bare metal machines, which means that we interact with its hardware directly. It does not have an operating (and in turn a system loader) to do the task of loading the libraries while the program is running. 
 
