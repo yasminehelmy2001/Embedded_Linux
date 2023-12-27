@@ -9,9 +9,7 @@
 2.  We then compiled our .c's to get our .o's 
 
        `avr-gcc -c DIO.c -I ./Include`	
-
-   ​    `avr-gcc -c PORT.c -I ./Include`
-   
+       `avr-gcc -c PORT.c -I ./Include`
        `avr-gcc -c PORT_cfg.c -I ./Include`		
 
 3. We created our static library
