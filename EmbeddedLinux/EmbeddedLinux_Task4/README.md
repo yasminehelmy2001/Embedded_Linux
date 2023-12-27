@@ -8,14 +8,14 @@
 
 2.  We then compiled our .c's to get our .o's 
 
-   ​	 `avr-gcc -c DIO.c -I ./Include`	
+       `avr-gcc -c DIO.c -I ./Include`	
 
-   ​	 `avr-gcc -c PORT.c -I ./Include`
-   ​	 `avr-gcc -c PORT_cfg.c -I ./Include`		
+   ​    `avr-gcc -c PORT.c -I ./Include`
+       `avr-gcc -c PORT_cfg.c -I ./Include`		
 
 3. We created our static library
 
-​	`ar -rcs libmcal.a PORT_cfg.o PORT.o DIO.o`
+​	    `ar -rcs libmcal.a PORT_cfg.o PORT.o DIO.o`
 
 4. We then linked our main .c with our library and used 2 flags:
 
