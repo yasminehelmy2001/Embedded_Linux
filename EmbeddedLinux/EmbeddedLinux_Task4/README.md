@@ -31,7 +31,7 @@
    
    Here the PORT_voidInit function initialized all 32 pins. PortA Pin0 & PortA Pin1 were initialized to OUTPUT_LOW. Then I used the DIO_enumsetPin function to set PortA Pin0 to LOGIC_HIGH.
    
-   ![](file:///home/yasmin/Pictures/Screenshots/Screenshot%20from%202023-12-27%2023-41-03.png)
+   ![](https://github.com/yasminehelmy2001/Embedded_Linux/blob/master/EmbeddedLinux/EmbeddedLinux_Task4/README.assets/maincode.png)
    
    ![](https://github.com/yasminehelmy2001/Embedded_Linux/blob/master/EmbeddedLinux/EmbeddedLinux_Task4/README.assets/Untitled12.png)
 
