@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/main.dir/home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/main.c.o -o main  libliboperation.a 

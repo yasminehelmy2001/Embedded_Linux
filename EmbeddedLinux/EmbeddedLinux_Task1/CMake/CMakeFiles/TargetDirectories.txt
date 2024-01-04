@@ -1,0 +1,6 @@
+/home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/CMake/CMakeFiles/main_static.dir
+/home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/CMake/CMakeFiles/main_dynamic.dir
+/home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/CMake/CMakeFiles/liboperation_static.dir
+/home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/CMake/CMakeFiles/liboperation_shared.dir
+/home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/CMake/CMakeFiles/edit_cache.dir
+/home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/CMake/CMakeFiles/rebuild_cache.dir
