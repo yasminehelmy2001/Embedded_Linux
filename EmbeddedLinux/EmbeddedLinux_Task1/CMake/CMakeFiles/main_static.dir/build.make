@@ -92,7 +92,7 @@ main_static_EXTERNAL_OBJECTS =
 
 Build/main_static: CMakeFiles/main_static.dir/main.c.o
 Build/main_static: CMakeFiles/main_static.dir/build.make
-Build/main_static: Library/libliboperation_static.a
+Build/main_static: Library/liboperation_static.a
 Build/main_static: CMakeFiles/main_static.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/CMake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Build/main_static"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main_static.dir/link.txt --verbose=$(VERBOSE)

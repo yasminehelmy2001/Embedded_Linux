@@ -1,1 +1,0 @@
-/usr/bin/cc -fPIC -shared -Wl,-soname,libliboperation_shared.so -o Library/libliboperation_shared.so CMakeFiles/liboperation_shared.dir/Source/add.c.o CMakeFiles/liboperation_shared.dir/Source/sub.c.o CMakeFiles/liboperation_shared.dir/Source/multiply.c.o CMakeFiles/liboperation_shared.dir/Source/divide.c.o CMakeFiles/liboperation_shared.dir/Source/modulus.c.o 

@@ -18,13 +18,11 @@ set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/Library)
 add_executable(main_static main.c)
 add_executable(main_dynamic main.c)
 
-add_library(liboperation_static STATIC ${SRC_FILE})
-add_library(liboperation_shared SHARED ${SRC_FILE})
+add_library(operation_static STATIC ${SRC_FILE})
+add_library(operation_shared SHARED ${SRC_FILE})
 
 target_include_directories(main_static PRIVATE Include/)
 target_include_directories(main_dynamic PRIVATE Include/)
-target_include_directories(main_static PRIVATE Library/)
-target_include_directories(main_dynamic PRIVATE Library/)
 
-target_link_libraries(main_static PUBLIC liboperation_static)
-target_link_libraries(main_dynamic PUBLIC liboperation_shared)
+target_link_libraries(main_static PUBLIC operation_static)
+target_link_libraries(main_dynamic PUBLIC operation_shared)

@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/CMake/Include -I/home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/CMake/Library
+C_INCLUDES = -I/home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/CMake/Include
 
 C_FLAGS = 
 
