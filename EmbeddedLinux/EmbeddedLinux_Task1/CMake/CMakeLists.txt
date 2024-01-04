@@ -1,4 +1,4 @@
-#minimum required cmake version
+#minimum required cmake 
 cmake_minimum_required(VERSION 3.12)
 
 #project description
