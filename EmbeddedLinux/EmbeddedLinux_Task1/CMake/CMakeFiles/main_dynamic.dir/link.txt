@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/main_dynamic.dir/main.c.o -o Build/main_dynamic  -Wl,-rpath,/home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/CMake/Library Library/liboperation_shared.so 

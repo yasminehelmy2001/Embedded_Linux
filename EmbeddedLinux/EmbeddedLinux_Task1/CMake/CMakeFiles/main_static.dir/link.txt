@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/main_static.dir/main.c.o -o Build/main_static  Library/liboperation_static.a 
