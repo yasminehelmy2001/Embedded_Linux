@@ -69,92 +69,92 @@ include CMakeFiles/operation_static.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/operation_static.dir/flags.make
 
-CMakeFiles/operation_static.dir/Source/add.c.o: CMakeFiles/operation_static.dir/flags.make
-CMakeFiles/operation_static.dir/Source/add.c.o: ../Source/add.c
-CMakeFiles/operation_static.dir/Source/add.c.o: CMakeFiles/operation_static.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/operation_static.dir/Source/add.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/operation_static.dir/Source/add.c.o -MF CMakeFiles/operation_static.dir/Source/add.c.o.d -o CMakeFiles/operation_static.dir/Source/add.c.o -c /home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/Source/add.c
+CMakeFiles/operation_static.dir/Library/add.c.o: CMakeFiles/operation_static.dir/flags.make
+CMakeFiles/operation_static.dir/Library/add.c.o: ../Library/add.c
+CMakeFiles/operation_static.dir/Library/add.c.o: CMakeFiles/operation_static.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/operation_static.dir/Library/add.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/operation_static.dir/Library/add.c.o -MF CMakeFiles/operation_static.dir/Library/add.c.o.d -o CMakeFiles/operation_static.dir/Library/add.c.o -c /home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/Library/add.c
 
-CMakeFiles/operation_static.dir/Source/add.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/operation_static.dir/Source/add.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/Source/add.c > CMakeFiles/operation_static.dir/Source/add.c.i
+CMakeFiles/operation_static.dir/Library/add.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/operation_static.dir/Library/add.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/Library/add.c > CMakeFiles/operation_static.dir/Library/add.c.i
 
-CMakeFiles/operation_static.dir/Source/add.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/operation_static.dir/Source/add.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/Source/add.c -o CMakeFiles/operation_static.dir/Source/add.c.s
+CMakeFiles/operation_static.dir/Library/add.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/operation_static.dir/Library/add.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/Library/add.c -o CMakeFiles/operation_static.dir/Library/add.c.s
 
-CMakeFiles/operation_static.dir/Source/sub.c.o: CMakeFiles/operation_static.dir/flags.make
-CMakeFiles/operation_static.dir/Source/sub.c.o: ../Source/sub.c
-CMakeFiles/operation_static.dir/Source/sub.c.o: CMakeFiles/operation_static.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/operation_static.dir/Source/sub.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/operation_static.dir/Source/sub.c.o -MF CMakeFiles/operation_static.dir/Source/sub.c.o.d -o CMakeFiles/operation_static.dir/Source/sub.c.o -c /home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/Source/sub.c
+CMakeFiles/operation_static.dir/Library/sub.c.o: CMakeFiles/operation_static.dir/flags.make
+CMakeFiles/operation_static.dir/Library/sub.c.o: ../Library/sub.c
+CMakeFiles/operation_static.dir/Library/sub.c.o: CMakeFiles/operation_static.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/operation_static.dir/Library/sub.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/operation_static.dir/Library/sub.c.o -MF CMakeFiles/operation_static.dir/Library/sub.c.o.d -o CMakeFiles/operation_static.dir/Library/sub.c.o -c /home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/Library/sub.c
 
-CMakeFiles/operation_static.dir/Source/sub.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/operation_static.dir/Source/sub.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/Source/sub.c > CMakeFiles/operation_static.dir/Source/sub.c.i
+CMakeFiles/operation_static.dir/Library/sub.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/operation_static.dir/Library/sub.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/Library/sub.c > CMakeFiles/operation_static.dir/Library/sub.c.i
 
-CMakeFiles/operation_static.dir/Source/sub.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/operation_static.dir/Source/sub.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/Source/sub.c -o CMakeFiles/operation_static.dir/Source/sub.c.s
+CMakeFiles/operation_static.dir/Library/sub.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/operation_static.dir/Library/sub.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/Library/sub.c -o CMakeFiles/operation_static.dir/Library/sub.c.s
 
-CMakeFiles/operation_static.dir/Source/multiply.c.o: CMakeFiles/operation_static.dir/flags.make
-CMakeFiles/operation_static.dir/Source/multiply.c.o: ../Source/multiply.c
-CMakeFiles/operation_static.dir/Source/multiply.c.o: CMakeFiles/operation_static.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/operation_static.dir/Source/multiply.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/operation_static.dir/Source/multiply.c.o -MF CMakeFiles/operation_static.dir/Source/multiply.c.o.d -o CMakeFiles/operation_static.dir/Source/multiply.c.o -c /home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/Source/multiply.c
+CMakeFiles/operation_static.dir/Library/multiply.c.o: CMakeFiles/operation_static.dir/flags.make
+CMakeFiles/operation_static.dir/Library/multiply.c.o: ../Library/multiply.c
+CMakeFiles/operation_static.dir/Library/multiply.c.o: CMakeFiles/operation_static.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/operation_static.dir/Library/multiply.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/operation_static.dir/Library/multiply.c.o -MF CMakeFiles/operation_static.dir/Library/multiply.c.o.d -o CMakeFiles/operation_static.dir/Library/multiply.c.o -c /home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/Library/multiply.c
 
-CMakeFiles/operation_static.dir/Source/multiply.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/operation_static.dir/Source/multiply.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/Source/multiply.c > CMakeFiles/operation_static.dir/Source/multiply.c.i
+CMakeFiles/operation_static.dir/Library/multiply.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/operation_static.dir/Library/multiply.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/Library/multiply.c > CMakeFiles/operation_static.dir/Library/multiply.c.i
 
-CMakeFiles/operation_static.dir/Source/multiply.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/operation_static.dir/Source/multiply.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/Source/multiply.c -o CMakeFiles/operation_static.dir/Source/multiply.c.s
+CMakeFiles/operation_static.dir/Library/multiply.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/operation_static.dir/Library/multiply.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/Library/multiply.c -o CMakeFiles/operation_static.dir/Library/multiply.c.s
 
-CMakeFiles/operation_static.dir/Source/divide.c.o: CMakeFiles/operation_static.dir/flags.make
-CMakeFiles/operation_static.dir/Source/divide.c.o: ../Source/divide.c
-CMakeFiles/operation_static.dir/Source/divide.c.o: CMakeFiles/operation_static.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/operation_static.dir/Source/divide.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/operation_static.dir/Source/divide.c.o -MF CMakeFiles/operation_static.dir/Source/divide.c.o.d -o CMakeFiles/operation_static.dir/Source/divide.c.o -c /home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/Source/divide.c
+CMakeFiles/operation_static.dir/Library/divide.c.o: CMakeFiles/operation_static.dir/flags.make
+CMakeFiles/operation_static.dir/Library/divide.c.o: ../Library/divide.c
+CMakeFiles/operation_static.dir/Library/divide.c.o: CMakeFiles/operation_static.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/operation_static.dir/Library/divide.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/operation_static.dir/Library/divide.c.o -MF CMakeFiles/operation_static.dir/Library/divide.c.o.d -o CMakeFiles/operation_static.dir/Library/divide.c.o -c /home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/Library/divide.c
 
-CMakeFiles/operation_static.dir/Source/divide.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/operation_static.dir/Source/divide.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/Source/divide.c > CMakeFiles/operation_static.dir/Source/divide.c.i
+CMakeFiles/operation_static.dir/Library/divide.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/operation_static.dir/Library/divide.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/Library/divide.c > CMakeFiles/operation_static.dir/Library/divide.c.i
 
-CMakeFiles/operation_static.dir/Source/divide.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/operation_static.dir/Source/divide.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/Source/divide.c -o CMakeFiles/operation_static.dir/Source/divide.c.s
+CMakeFiles/operation_static.dir/Library/divide.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/operation_static.dir/Library/divide.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/Library/divide.c -o CMakeFiles/operation_static.dir/Library/divide.c.s
 
-CMakeFiles/operation_static.dir/Source/modulus.c.o: CMakeFiles/operation_static.dir/flags.make
-CMakeFiles/operation_static.dir/Source/modulus.c.o: ../Source/modulus.c
-CMakeFiles/operation_static.dir/Source/modulus.c.o: CMakeFiles/operation_static.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/operation_static.dir/Source/modulus.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/operation_static.dir/Source/modulus.c.o -MF CMakeFiles/operation_static.dir/Source/modulus.c.o.d -o CMakeFiles/operation_static.dir/Source/modulus.c.o -c /home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/Source/modulus.c
+CMakeFiles/operation_static.dir/Library/modulus.c.o: CMakeFiles/operation_static.dir/flags.make
+CMakeFiles/operation_static.dir/Library/modulus.c.o: ../Library/modulus.c
+CMakeFiles/operation_static.dir/Library/modulus.c.o: CMakeFiles/operation_static.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/operation_static.dir/Library/modulus.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/operation_static.dir/Library/modulus.c.o -MF CMakeFiles/operation_static.dir/Library/modulus.c.o.d -o CMakeFiles/operation_static.dir/Library/modulus.c.o -c /home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/Library/modulus.c
 
-CMakeFiles/operation_static.dir/Source/modulus.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/operation_static.dir/Source/modulus.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/Source/modulus.c > CMakeFiles/operation_static.dir/Source/modulus.c.i
+CMakeFiles/operation_static.dir/Library/modulus.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/operation_static.dir/Library/modulus.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/Library/modulus.c > CMakeFiles/operation_static.dir/Library/modulus.c.i
 
-CMakeFiles/operation_static.dir/Source/modulus.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/operation_static.dir/Source/modulus.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/Source/modulus.c -o CMakeFiles/operation_static.dir/Source/modulus.c.s
+CMakeFiles/operation_static.dir/Library/modulus.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/operation_static.dir/Library/modulus.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/Library/modulus.c -o CMakeFiles/operation_static.dir/Library/modulus.c.s
 
 # Object files for target operation_static
 operation_static_OBJECTS = \
-"CMakeFiles/operation_static.dir/Source/add.c.o" \
-"CMakeFiles/operation_static.dir/Source/sub.c.o" \
-"CMakeFiles/operation_static.dir/Source/multiply.c.o" \
-"CMakeFiles/operation_static.dir/Source/divide.c.o" \
-"CMakeFiles/operation_static.dir/Source/modulus.c.o"
+"CMakeFiles/operation_static.dir/Library/add.c.o" \
+"CMakeFiles/operation_static.dir/Library/sub.c.o" \
+"CMakeFiles/operation_static.dir/Library/multiply.c.o" \
+"CMakeFiles/operation_static.dir/Library/divide.c.o" \
+"CMakeFiles/operation_static.dir/Library/modulus.c.o"
 
 # External object files for target operation_static
 operation_static_EXTERNAL_OBJECTS =
 
-liboperation_static.a: CMakeFiles/operation_static.dir/Source/add.c.o
-liboperation_static.a: CMakeFiles/operation_static.dir/Source/sub.c.o
-liboperation_static.a: CMakeFiles/operation_static.dir/Source/multiply.c.o
-liboperation_static.a: CMakeFiles/operation_static.dir/Source/divide.c.o
-liboperation_static.a: CMakeFiles/operation_static.dir/Source/modulus.c.o
+liboperation_static.a: CMakeFiles/operation_static.dir/Library/add.c.o
+liboperation_static.a: CMakeFiles/operation_static.dir/Library/sub.c.o
+liboperation_static.a: CMakeFiles/operation_static.dir/Library/multiply.c.o
+liboperation_static.a: CMakeFiles/operation_static.dir/Library/divide.c.o
+liboperation_static.a: CMakeFiles/operation_static.dir/Library/modulus.c.o
 liboperation_static.a: CMakeFiles/operation_static.dir/build.make
 liboperation_static.a: CMakeFiles/operation_static.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C static library liboperation_static.a"

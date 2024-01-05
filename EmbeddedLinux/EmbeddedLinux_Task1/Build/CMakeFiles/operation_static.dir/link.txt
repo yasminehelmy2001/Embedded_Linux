@@ -1,2 +1,2 @@
-/usr/bin/ar qc liboperation_static.a CMakeFiles/operation_static.dir/Source/add.c.o CMakeFiles/operation_static.dir/Source/sub.c.o CMakeFiles/operation_static.dir/Source/multiply.c.o CMakeFiles/operation_static.dir/Source/divide.c.o CMakeFiles/operation_static.dir/Source/modulus.c.o
+/usr/bin/ar qc liboperation_static.a CMakeFiles/operation_static.dir/Library/add.c.o CMakeFiles/operation_static.dir/Library/sub.c.o CMakeFiles/operation_static.dir/Library/multiply.c.o CMakeFiles/operation_static.dir/Library/divide.c.o CMakeFiles/operation_static.dir/Library/modulus.c.o
 /usr/bin/ranlib liboperation_static.a

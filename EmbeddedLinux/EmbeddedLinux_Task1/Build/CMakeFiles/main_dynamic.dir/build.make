@@ -92,7 +92,6 @@ main_dynamic_EXTERNAL_OBJECTS =
 
 main_dynamic: CMakeFiles/main_dynamic.dir/main.c.o
 main_dynamic: CMakeFiles/main_dynamic.dir/build.make
-main_dynamic: liboperation_shared.so
 main_dynamic: CMakeFiles/main_dynamic.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable main_dynamic"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main_dynamic.dir/link.txt --verbose=$(VERBOSE)

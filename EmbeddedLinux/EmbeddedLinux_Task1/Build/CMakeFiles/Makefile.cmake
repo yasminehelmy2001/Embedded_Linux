@@ -41,6 +41,4 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/main_static.dir/DependInfo.cmake"
   "CMakeFiles/main_dynamic.dir/DependInfo.cmake"
-  "CMakeFiles/operation_static.dir/DependInfo.cmake"
-  "CMakeFiles/operation_shared.dir/DependInfo.cmake"
   )

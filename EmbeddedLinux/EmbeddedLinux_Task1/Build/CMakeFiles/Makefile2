@@ -65,8 +65,6 @@ CMAKE_BINARY_DIR = /home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1
 # The main recursive "all" target.
 all: CMakeFiles/main_static.dir/all
 all: CMakeFiles/main_dynamic.dir/all
-all: CMakeFiles/operation_static.dir/all
-all: CMakeFiles/operation_shared.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -76,15 +74,13 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/main_static.dir/clean
 clean: CMakeFiles/main_dynamic.dir/clean
-clean: CMakeFiles/operation_static.dir/clean
-clean: CMakeFiles/operation_shared.dir/clean
 .PHONY : clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/main_static.dir
 
 # All Build rule for target.
-CMakeFiles/main_static.dir/all: CMakeFiles/operation_static.dir/all
+CMakeFiles/main_static.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_static.dir/build.make CMakeFiles/main_static.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_static.dir/build.make CMakeFiles/main_static.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/Build/CMakeFiles --progress-num=3,4 "Built target main_static"
@@ -92,7 +88,7 @@ CMakeFiles/main_static.dir/all: CMakeFiles/operation_static.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/main_static.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/Build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/Build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/main_static.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/Build/CMakeFiles 0
 .PHONY : CMakeFiles/main_static.dir/rule
@@ -110,7 +106,7 @@ CMakeFiles/main_static.dir/clean:
 # Target rules for target CMakeFiles/main_dynamic.dir
 
 # All Build rule for target.
-CMakeFiles/main_dynamic.dir/all: CMakeFiles/operation_shared.dir/all
+CMakeFiles/main_dynamic.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_dynamic.dir/build.make CMakeFiles/main_dynamic.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_dynamic.dir/build.make CMakeFiles/main_dynamic.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/Build/CMakeFiles --progress-num=1,2 "Built target main_dynamic"
@@ -118,7 +114,7 @@ CMakeFiles/main_dynamic.dir/all: CMakeFiles/operation_shared.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/main_dynamic.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/Build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/Build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/main_dynamic.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/Build/CMakeFiles 0
 .PHONY : CMakeFiles/main_dynamic.dir/rule
@@ -131,58 +127,6 @@ main_dynamic: CMakeFiles/main_dynamic.dir/rule
 CMakeFiles/main_dynamic.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_dynamic.dir/build.make CMakeFiles/main_dynamic.dir/clean
 .PHONY : CMakeFiles/main_dynamic.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/operation_static.dir
-
-# All Build rule for target.
-CMakeFiles/operation_static.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/operation_static.dir/build.make CMakeFiles/operation_static.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/operation_static.dir/build.make CMakeFiles/operation_static.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/Build/CMakeFiles --progress-num=11,12,13,14,15,16 "Built target operation_static"
-.PHONY : CMakeFiles/operation_static.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/operation_static.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/Build/CMakeFiles 6
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/operation_static.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/Build/CMakeFiles 0
-.PHONY : CMakeFiles/operation_static.dir/rule
-
-# Convenience name for target.
-operation_static: CMakeFiles/operation_static.dir/rule
-.PHONY : operation_static
-
-# clean rule for target.
-CMakeFiles/operation_static.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/operation_static.dir/build.make CMakeFiles/operation_static.dir/clean
-.PHONY : CMakeFiles/operation_static.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/operation_shared.dir
-
-# All Build rule for target.
-CMakeFiles/operation_shared.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/operation_shared.dir/build.make CMakeFiles/operation_shared.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/operation_shared.dir/build.make CMakeFiles/operation_shared.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/Build/CMakeFiles --progress-num=5,6,7,8,9,10 "Built target operation_shared"
-.PHONY : CMakeFiles/operation_shared.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/operation_shared.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/Build/CMakeFiles 6
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/operation_shared.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yasmin/Embedded_Linux/EmbeddedLinux/EmbeddedLinux_Task1/Build/CMakeFiles 0
-.PHONY : CMakeFiles/operation_shared.dir/rule
-
-# Convenience name for target.
-operation_shared: CMakeFiles/operation_shared.dir/rule
-.PHONY : operation_shared
-
-# clean rule for target.
-CMakeFiles/operation_shared.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/operation_shared.dir/build.make CMakeFiles/operation_shared.dir/clean
-.PHONY : CMakeFiles/operation_shared.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
