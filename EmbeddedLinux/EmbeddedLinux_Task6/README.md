@@ -4,7 +4,7 @@ In this task, we will emulate an SD card.
 
 ### 1) Create an image of the SD card
 
-​             `	dd  if=/dev/zero  of=sd.img  bs=1M  count=1024`
+​     `	dd  if=/dev/zero  of=sd.img  bs=1M  count=1024`
 
 ​        We used the 'dd' tool to create an image of the SD card
 
@@ -66,6 +66,7 @@ sudo mkfs.ext4 -L rootfs /dev/loop16p2
 ```
 cd ~
 mkdir boot 
+mkdir rootfs
 $ sudo mount /dev/loop18p1 ~/boot
 $ sudo mount /dev/loop18p2 ~/rootfs
 ```
