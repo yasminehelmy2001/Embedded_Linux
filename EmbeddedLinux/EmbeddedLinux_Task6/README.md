@@ -2,7 +2,7 @@
 
 In this task, we will emulate an SD card.
 
-#### Create an image of the SD card
+### Create an image of the SD card
 
 ​             `	dd  if=/dev/zero  of=sd.img  bs=1M  count=1024`
 
@@ -14,7 +14,7 @@ In this task, we will emulate an SD card.
 
   
 
-#### Configure the partition table (NOT formatting it)
+### Configure the partition table (NOT formatting it)
 
 ​      `  cfdisk sd.img   `
 
@@ -50,7 +50,7 @@ Emulate the sd.img file as an sd card by attaching it to a loop driver to be acc
 
 The loop device connected to the sd image was loop16. 
 
-#### Format Partition Table
+### Format Partition Table
 
 This process writes the partition table to the disk, which initialized the structure based on the               configurations done in the table above.
 
@@ -61,7 +61,7 @@ sudo mkfs.vfat -F 16 -n boot /dev/loop16p1
 sudo mkfs.ext4 -L rootfs /dev/loop16p2
 ```
 
-#### Mount the partitions
+### Mount the partitions
 
 ```
 cd ~
