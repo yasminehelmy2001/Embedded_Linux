@@ -12,7 +12,7 @@
 
 For any 2 computers or servers to share information with one another, they must follow this layered model called the "OSI Model". Each computer must have a network interface (NIC) in order to communicate. The model is explained briefly in the picture below:
 
-![1.1 OSI-TCPIP Models](README.assets/1.1 OSI-TCPIP Models.png)
+![](README.assets/1.1 OSI-TCPIP Models.png)
 
 As shown in the application layer, we have many protocols we can use based on what exactly we want to transfer. (HTTPS, TFTP, SMTP....)
 
