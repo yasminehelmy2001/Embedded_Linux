@@ -113,32 +113,32 @@ We will set up a TAP Interface between our PC and QEMU. Lets understand whats a 
 
 >  **TAP Interface:**
 >
->    +--------------------------+
->    |      Your Computer       |
->    |                          |
->    |   +------------------+   |
->    |   | Physical NIC     |   |
->    |   | MAC: 01:23:45:67:89:AB |
->    |   | IP: 192.168.1.2   |   |
->    |   +------------------+   |
->    |            |             |
->    |   +------------------+   |
->    |   |      TAP Interface  |   |
->    |   |   Virtual NIC    |   |
->    |   |   MAC: 12:34:56:78:CD:EF |  |
->    |   |   IP: 192.168.1.2  |   |
->    |   +------------------+   |
->    +--------------------------+
->               |
->    +--------------------------+
->    |       QEMU (Virtual Machine)  |
->    |                          |
->    |   +------------------+   |
->    |   | Virtual NIC      |   |
->    |   | MAC: 23:45:67:89:EF:01 | |
->    |   | IP: 192.168.1.4  |   |
->    |   +------------------+   |
->    +--------------------------+
+>    +--------------------------+  
+>    |      Your Computer       |  
+>    |                          |  
+>    |   +------------------+   |  
+>    |   | Physical NIC     |   |  
+>    |   | MAC: 01:23:45:67:89:AB |  
+>    |   | IP: 192.168.1.2   |   |  
+>    |   +------------------+   |  
+>    |            |             |  
+>    |   +------------------+   |  
+>    |   |      TAP Interface  |   |  
+>    |   |   Virtual NIC    |   |  
+>    |   |   MAC: 12:34:56:78:CD:EF |  |  
+>    |   |   IP: 192.168.1.2  |   |  
+>    |   +------------------+   |  
+>    +--------------------------+  
+>               |  
+>    +--------------------------+  
+>    |       QEMU (Virtual Machine)  |  
+>    |                          |  
+>    |   +------------------+   |  
+>    |   | Virtual NIC      |   |  
+>    |   | MAC: 23:45:67:89:EF:01 | |  
+>    |   | IP: 192.168.1.4  |   |  
+>    |   +------------------+   |  
+>    +--------------------------+  
 >
 > - TAP interfaces are used in scenarios where you want the virtual machine  to be integrated into the local network as if it were a physical  machine. It allows the VM to communicate with other devices on the same network.
 >
