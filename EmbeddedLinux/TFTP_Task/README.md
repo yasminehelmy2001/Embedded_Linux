@@ -172,7 +172,7 @@ open qemu_ifup
 
 ![script](README.assets/script-1705796215726-18.png)
 
-When the virtual machine communicates with the network, it sends packets through the TAP interface. The TAP interface acts like a **bridge**, forwarding these packets between the virtual machine and the host machine. We want out TAP interface to have an IP address in the **s****ame network/subnet** as our host machine, so will will give it an ip address of 192.168.165.220.
+When the virtual machine communicates with the network, it sends packets through the TAP interface. The TAP interface acts like a **bridge**, forwarding these packets between the virtual machine and the host machine. We want out TAP interface to have an IP address in the **same network/subnet** as our host machine, so will will give it an ip address of 192.168.165.220.
 
 The line `ip a add 192.168.165.220 dev $1` assings the TAP Interface IP address 
 
