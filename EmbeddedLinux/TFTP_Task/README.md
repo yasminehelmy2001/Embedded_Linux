@@ -8,7 +8,7 @@
 
 
 
-![](../README.assets/OSI_Model_sending_receiving-1705779173651-3.jpg)
+![](README.assets/OSI_Model_sending_receiving-1705779173651-3.jpg)
 
 For any 2 computers or servers to share information with one another, they must follow this layered model called the "OSI Model". Each computer must have a network interface (NIC) in order to communicate. The model is explained briefly in the picture below:
 
