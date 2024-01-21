@@ -1,7 +1,3 @@
----
-typora-root-url: ./Images
----
-
 # Embedded Linux Task : Using TFTP Protocol for U-boot/ Z-Image/DTB File Transferring
 
 
@@ -12,7 +8,7 @@ typora-root-url: ./Images
 
 
 
-![](/../README.assets/OSI_Model_sending_receiving-1705779173651-3.jpg)
+![](https://github.com/yasminehelmy2001/Embedded_Linux/blob/master/EmbeddedLinux/TFTP_Task/README.assets/OSI_Model_sending_receiving-1705779173651-3.jpg)
 
 For any 2 computers or servers to share information with one another, they must follow this layered model called the "OSI Model". Each computer must have a network interface (NIC) in order to communicate. The model is explained briefly in the picture below:
 
@@ -68,7 +64,7 @@ After we installed the TFTP package, a configuration file called tftpd-hpa was c
 
 If we open it, we will see that the TFTP Protocol has access to only the directory /srv/tftp.
 
-![](/../README.assets/tftpd_cfg_txt.png)
+![](https://github.com/yasminehelmy2001/Embedded_Linux/blob/master/EmbeddedLinux/TFTP_Task/README.assets/tftpd_cfg_txt.png)
 
 ## Changing Ownership of /srv/tftp
 
