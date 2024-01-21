@@ -12,7 +12,7 @@
 
 For any 2 computers or servers to share information with one another, they must follow this layered model called the "OSI Model". Each computer must have a network interface (NIC) in order to communicate. The model is explained briefly in the picture below:
 
-![1.1 OSI-TCPIP Models](/../README.assets/1.1 OSI-TCPIP Models.png)
+![1.1 OSI-TCPIP Models](README.assets/1.1 OSI-TCPIP Models.png)
 
 As shown in the application layer, we have many protocols we can use based on what exactly we want to transfer. (HTTPS, TFTP, SMTP....)
 
@@ -58,13 +58,13 @@ You might wonder, does this mean that our beaglebone can access my entire comput
 
 After we installed the TFTP package, a configuration file called tftpd-hpa was created in /etc/default.
 
-![tftpd_cfg](/../README.assets/tftpd_cfg.png)
+![tftpd_cfg](README.assets/tftpd_cfg.png)
 
 
 
 If we open it, we will see that the TFTP Protocol has access to only the directory /srv/tftp.
 
-![](https://github.com/yasminehelmy2001/Embedded_Linux/blob/master/EmbeddedLinux/TFTP_Task/README.assets/tftpd_cfg_txt.png)
+![](README.assets/tftpd_cfg_txt.png)
 
 ## Changing Ownership of /srv/tftp
 
@@ -102,7 +102,7 @@ First, we need to know our computer's ip address through:
 
 `ip addr`
 
-![ip_addr](/../README.assets/ip_addr.png)
+![ip_addr](README.assets/ip_addr.png)
 
 We can see that we have 2 IP Addresses 
 
@@ -170,7 +170,7 @@ touch qemu_ifup
 open qemu_ifup
 ```
 
-![script](/../README.assets/script-1705796215726-18.png)
+![script](README.assets/script-1705796215726-18.png)
 
 When the virtual machine communicates with the network, it sends packets through the TAP interface. The TAP interface acts like a **bridge**, forwarding these packets between the virtual machine and the host machine. We want out TAP interface to have an IP address in the **s****ame network/subnet** as our host machine, so will will give it an ip address of 192.168.165.220.
 
@@ -227,7 +227,7 @@ First I need to know where my DRAM begins, so I will use `bdinfo`, which states 
 
 Use the command `md 0x60000000` to see the contents of your DRAM!
 
-![tftpresult](/../README.assets/tftpresult.png)
+![tftpresult](README.assets/tftpresult.png)
 
 The same thing is done for the hw.dtb file. Choose an available memory so it doesn't overlap on the kernel.
 
