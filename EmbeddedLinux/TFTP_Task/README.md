@@ -140,16 +140,8 @@ We will set up a TAP Interface between our PC and QEMU. Lets understand whats a 
 >    |   +------------------+   |  
 >    +--------------------------+  
 >
-> - TAP interfaces are used in scenarios where you want the virtual machine  to be integrated into the local network as if it were a physical  machine. It allows the VM to communicate with other devices on the same network.
->
-> - When you use a TAP interface, the virtual machine becomes part of the same local network as the host machine.
->
-> - TAP is a virtual network interface that facilitates  communication between software entities, such as virtual machines (VMs)  or containers, and the physical network.
->
->   
 >
 >   Let's break down why you might use a TAP (network tap) interface in the context of QEMU and virtualization, using simpler terms:
->
 >   1. **Network Connectivity:**
 >      - When you run a virtual machine (VM) using QEMU, it's like having a separate computer within your computer. However, for this virtual machine to communicate with your physical computer and the rest of your home or office network, you need a way to connect them.
 >   2. **TAP Interface as a Bridge:**
@@ -160,8 +152,9 @@ We will set up a TAP Interface between our PC and QEMU. Lets understand whats a 
 >      - If you want to share files between your physical computer and the virtual machine or if you need the VM to access the internet, the TAP interface makes these things possible. It's like giving the virtual machine its own connection to your home or office network.
 >   5. **Example Use Case - TFTP:**
 >      - If you're using TFTP to transfer files between your computer and the virtual machine, the TAP interface facilitates this communication. The VM can send TFTP requests to your computer over the TAP interface, and your computer responds, allowing file transfers.
->
->   The TAP interface provides network connectivity to the virtual machine.  QEMU will use this interface to communicate with other devices on the  local network, including your host machine.
+
+
+Another way to explain this is that the TAP interface acts as a virtual ethernet cable between my computer and QEMU.
 
 Now we understood the reason for using a TAP interface, lets set it up using a script
 
@@ -204,6 +197,9 @@ We need to give the script execute permission using
 > - Stores the IP address of the server (e.g., TFTP server) from which U-Boot can load files.
 >
 > `setenv serverip <ServerIPAddress>` 
+
+
+If you are connecting your computer and the BeagleBone/QEMU through Ethernet, they typically need to be on the same local network for direct communication. Devices on different networks cannot communicate with each other directly unless there is a router or a device acting as a bridge between the networks. So this would need additional setups for Beaglebone/QEMU to be connected to a router.
 
 In my U-BOOT I entered:
 
