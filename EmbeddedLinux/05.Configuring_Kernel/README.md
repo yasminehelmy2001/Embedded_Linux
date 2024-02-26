@@ -81,8 +81,10 @@ U-boot device tree  is used to configure and initialize the hardware components 
 4. Build the kernel 
 
    `make -j4 zImage modules dtbs`
+   
+   
 
-
+Note: devmpfs is a file system that is responsible for mounting the device notes in the /dev directory, without checking its box, you won't have any access to your module from the userspace.
 
 ### Choosing Device Driver to be Compiled Dynamically
 
