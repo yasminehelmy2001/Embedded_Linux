@@ -115,7 +115,7 @@ We can see our compiled I3C module in the installed path we provided.
 
 ## Booting Kernel from TFTP
 
-Repeating steps from the [TFTP Task](https://github.com/yasminehelmy2001/Embedded_Linux/tree/master/EmbeddedLinux/TFTP_Task):
+Repeating steps from the [TFTP Task](https://github.com/yasminehelmy2001/Embedded_Linux/tree/master/EmbeddedLinux/04.TFTP_Task):
 
 1) Copy zImage & dtb files to TFTP Folder
 
