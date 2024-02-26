@@ -105,7 +105,7 @@ To install them into the staging area of your root  filesystem, provide the path
 make -j4 ARCH=arm CROSS_COMPILE=arm-cortex_a9-linux-gnueabihf- INSTALL_MOD_PATH=$HOME/rootfs modules_install
 ```
 
-![](/home/yasmin/Embedded_Linux/EmbeddedLinux/05.Configuring_Kernel/README.assets/mod.png)
+![](README.assets/mod.png)
 
 We can see our compiled I3C module in the installed path we provided.
 
