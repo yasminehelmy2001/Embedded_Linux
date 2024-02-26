@@ -90,8 +90,8 @@ Note: devmpfs is a file system that is responsible for mounting the device notes
 
 In menuconfig -> Device Drivers, you can choose a module to be
 
-- Static. Ex: I3C<*>
-- Dynamic. Ex: I3C<M>
+- Static: "Module Name" < * >
+- Dynamic: "Module Name" < M >
 
 Here, we choose the I3C Module to be compiled dynamically.
 
