@@ -234,15 +234,17 @@ Contains local user settings for almost aspects of the build system,
 
    This option specifies where the bulk of the building work should be  done and where Bitbake should place its temporary files(source  extraction, compilation) and output.
 
-   `BB_NUMBER_THREADS`: **Determine the number of tasks** that Bitbake will perform **in parallel**
+   
 
-   Note: These tasks are related to bitbake and nothing related to compiling. Defaults to the number of CPUs on the system.
+6. `BB_NUMBER_THREADS`: **Determine the number of tasks** that Bitbake will perform **in parallel**
+
+Note: These tasks are related to bitbake and nothing related to compiling. Defaults to the number of CPUs on the system.
 
 
 
-6. `PARALLEL_MAKE`: **Specify the number of processes** that GNU make can run **in parallel**
+7. `PARALLEL_MAKE`: **Specify the number of processes** that GNU make can run **in parallel**
 
-   This specifies the number of processes that GNU make can run in  parallel on a compilation task. Defaults to the number of CPUs on the  system. Corresponds to the `-j` make option.
+This specifies the number of processes that GNU make can run in  parallel on a compilation task. Defaults to the number of CPUs on the  system. Corresponds to the `-j` make option.
 
 
 
