@@ -118,7 +118,7 @@ Linux Based Embedded Product, such as Linux Kernel, Root File System, Bootloader
 
   
 
-### **OpenEmbedded **
+### OpenEmbedded
 
 [OpenEmbedded](http://www.openembedded.org/wiki/Main_Page)  allows developers  to create a complete Linux Distribution for embedded systems.
 
