@@ -130,7 +130,7 @@ The Yocto Project and OpenEmbedded share a core collection of metadata called Op
 
   
 
-### **OpenEmbedded-Core**: 
+### **OpenEmbedded-Core**
 
 oe-core is meta-data composed of  foundation recipes, classes and associated files that are meant to be  common among many different OpenEmbedded-derived systems, including the  Yocto Project. It is a curated subset of an original repository  developed by the OpenEmbedded community which has been pared down into a smaller, core set of continuously validated recipes resulting in a  tightly controlled and a quality-assured core set of recipes. 
 
