@@ -312,7 +312,7 @@ Yocto can generate different image formats, e.g.
 
 ## Workflow of Yocto Project
 
-![](README.assets/Screenshot from 2024-02-28 11-11-00.png)
+![](README.assets/workflow.png)
 
 
 
